@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CI435 - Introduction to Web Development</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <a id="top"></a>
+    <header>
+        <h1>Learning Journal</h1>
+        <h2>Making the website more responsive</h2>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li>Learning Journal</li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <h3>The weekly post</h3>
+        <ol>
+            <li><a href="#week1">Getting started</a></li>
+            <li><a href="#week2">Learning more HTML elements</a></li>
+            <li><a href="#week3">Learning about lists and tables</a></li>
+            <li><a href="#refs">References</a></li>
+        </ol>
+    </nav>
+
+    <table>
+        <caption>My timetable</caption>
+        <thead>
+            <tr>
+                <th>Day/time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10-11:30am</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2">CI435 Lecture<br>G50 Hall</td>
+                <td rowspan="2"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>11:30-12pm</td>
+                <td rowspan="2">CI406 Lecture<br>MH G8</td>
+            </tr>
+            <tr>
+                <td>12-1:30pm</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1:30-2pm</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2-3pm</td>
+                <td rowspan="2"></td>
+                <td rowspan="2">CI406 lab<br>Cockcroft 106</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td>CI453 Lecture<br>MH G8</td>
+            </tr>
+            <tr>
+                <td>3-4pm</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4-6pm</td>
+                <td></td>
+                <td>CI435 lab<br>Watts 201</td>
+                <td></td>
+                <td></td>
+                <td>CI453 lab<br>Cockcroft 419</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <main>
+        <h2>Weekly Posts</h2>
+        <article>
+            <header class="post">
+                <h3><a id="week3"></a>Lab Session 3 - Learning about lists and tables</h3>
+                <p>Published on <time datetime="2026-05-19"><strong>May 19, 2026</strong></time></p>
+            </header>
+            <h4>Nesting an unordered list within an ordered list</h4>
+            <ol>
+                <li>Tutorial 1
+                    <ul>
+                        <li>Set up site folder</li>
+                        <li>Create index.html</li>
+                        <li>Create guide.html</li>
+                        <li>Link files in a lists for navigation</li>
+                    </ul>
+                </li>
+                <li>Tutorial 2
+                    <ul>
+                        <li>Add posts and date</li>
+                        <li>Add named anchors</li>
+                    </ul>
+                </li>
+            </ol>
+            <h4>Description list</h4>
+            <dl>
+                <dt><strong>HTML</strong></dt>
+                <dd>Hyper-text markup language - markup language used to structure content</dd>
+                <dt><strong>CSS</strong></dt>
+                <dd>Cascading stylesheets - used to define presentation of HTML elements</dd>
+                <dt><strong>JavaScript</strong></dt>
+                <dd>Scripting language for adding interactive behaviour to web pages</dd>
+            </dl>
+            <p>
+                <a href="http://www.w3.org/html/logo">
+                    <img src="images/HTML5Logo.png" alt="HTML5 Logo">
+                </a>
+                The W3C has made an HTML logo that you can add to your web page.
+            </p>
+        </article>
+
+        <article>
+            <header class="post">
+                <h3><a id="week2"></a>Lab Session 2 - Learning more of HTML elements</h3>
+                <p>Published on <time datetime="2026-05-19"><strong>May 19, 2026</strong></time></p>
+            </header>
+            <blockquote>
+                <p>HTML and CSS are two of the core technologies for building Web pages...</p>
+                <footer>
+                    <cite><a href="http://www.w3.org/standards/webdesign/htmlcss">W3C standards</a></cite>
+                </footer>
+            </blockquote>
+        </article>
+
+        <article>
+            <header class="post">
+                <h3><a id="week1"></a>Lab Session 1 - Getting started</h3>
+                <p>Published on <time datetime="2026-05-19"><strong>May 19, 2026</strong></time></p>
+            </header>
+            <figure>
+                <img src="images/started.png" alt="Screenshot of initial coding work">
+                <figcaption>Showing off the coding skills<br>
+                    <small>Screenshot &copy; Joseph Nsonde</small>
+                </figcaption>
+            </figure>
+        </article>
+    </main>
+
+    <aside>
+        <h2><a id="refs"></a>References</h2>
+        <ol>
+            <li><a href="http://validator.w3.org/">W3C markup validation service</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements">MDN HTML Elements Reference</a></li>
+        </ol>
+    </aside>
+
+    <p><a href="#top">Go to top</a></p>
+
+    <footer>
+        <a href="mailto:j.Nsonde1@uni.brighton.ac.uk">Email Joseph Nsonde</a>
+        <small>&copy; 2026, Joseph Nsonde.</small>
+    </footer>
+</div>
+</body>
+</html>

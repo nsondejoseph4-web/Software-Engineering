@@ -1,0 +1,116 @@
+/*sections------------------------------------------------------------------- */
+body {
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+}
+#wrapper {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main  {
+}
+article	{
+}
+aside	{
+}
+footer {
+}
+header {
+}
+.post	{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #ccc;
+}
+nav	{
+}
+.menu li	{
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.menu a {
+    color: #000;
+    padding: 5px;
+    margin-right: 4px;
+    text-decoration: none;
+    border: 2px solid #0090d2;
+    border-radius: 3px;
+}
+.menu a:hover {
+    background-color: #0090d2;
+    color: #fff;
+}
+/*headings------------------------------------------------------------------- */
+h1	{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f60;
+    font-size: 36px;
+    line-height: 50px;
+}
+h2	{
+}
+h3 	{
+}
+/*grouping------------------------------------------------------------------- */
+p	{
+}
+blockquote	{
+}
+table, th, td   {
+    border: 1px solid black;
+}
+/*lists---------------------------------------------------------------------- */
+ul	{
+}
+li	{
+}
+ol	{
+}
+dl	{
+}
+dt	{
+}
+dd	{
+}
+/*text------------------------------------------------------------------------ */
+em	{
+}
+strong	{
+}
+small	{
+}
+cite	{
+}
+time	{
+}
+/*image----------------------------------------------------------------------- */
+figure	{
+}
+figcaption	{
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Keeps the image centered inside its space */
+}
+
+/*anchors--------------------------------------------------------------------- */
+a:link, a:visited, a:active	{
+    color: #0090d2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0063a6;
+    text-decoration: none;
+}
