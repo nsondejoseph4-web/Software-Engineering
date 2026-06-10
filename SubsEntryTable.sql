@@ -55,10 +55,6 @@ SET SQL_SAFE_UPDATES = 1;
 SET SQL_SAFE_UPDATES = 0;
 ALTER TABLE subscriptions
 ADD COLUMN category ENUM('Entertainment', 'Software', 'Gym', 'Food', 'Utilities') NOT NULL DEFAULT 'Entertainment';
-UPDATE subscription SET category = 'Entertainment' WHERE service_name LIKE '%Netflix%' OR service_name LIKE '%Spotify%' OR service_name LIKE '%Disney%' OR service_name LIKE '%Now%'; 
-UPDATE subscription SET category = 'Utilities' WHERE service_name LIKE '%Prime%';
-SET SQL_SAFE_UPDATES = 1;
-SET SQL_SAFE_UPDATES = 0;
-UPDATE subscriptions SET category = 'Entertainment' WHERE category IS NULL OR category = '';
-UPDATE subscriptions SET category = 'Utilities' WHERE service_name LIKE '%Prime%' OR service_name LIKE '%Mobile%';
+UPDATE subscriptions SET category = 'Entertainment' WHERE service_name LIKE '%Netflix%' OR service_name LIKE '%Spotify%' OR service_name LIKE '%Disney%' OR service_name LIKE '%Now%'; 
+UPDATE subscriptions SET category = 'Utilities' WHERE service_name LIKE '%Prime%';
 SET SQL_SAFE_UPDATES = 1;
